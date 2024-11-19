@@ -20,21 +20,53 @@ h2 {
     color: #184f63;
 }
 
+.sharp-corners, .sharp-corners * {
+    border-radius: 0;
+}
+
+/* About section */
+
 #about {
     background-color: white;
 }
+
+/* Portfolio section */
 
 #portfolio {
     background-color: #dbdcde;
 }
 
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798;
+}
+
+#portfolio .card-text {
+    min-height: 120px;
+}
+/* Footer section */
+
 #contact {
     background-color: white;
 }
+
+/* Header section */
 
 #hero {
     background-color: #dbdcde;
     background: url("../images/background.webp") no-repeat 50% 70% / cover;
     min-height: 500px;
     padding: 5% 7%;
+}
+
+/* Media Queries */
+
+@media screen and (min-width:1200px) {
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }
