@@ -63,6 +63,16 @@ h2 {
     padding: 5% 7%;
 }
 
+.custom-button {
+    background-color: #1f7798;
+    border: #1f7798;
+}
+
+.custom-button:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a;
+}
+
 /* Media Queries */
 
 @media screen and (min-width:1200px) {
